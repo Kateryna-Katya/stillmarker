@@ -363,3 +363,11 @@ margin-bottom: 16px;
     font-size: 42px;
  }
 }
+/* Gallery */
+.gallery-section{
+    background: #fff3ec;
+}
+.gallery-title{
+    color: #ff3f8b;
+    margin-bottom: 64px;
+}
