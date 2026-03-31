@@ -141,3 +141,109 @@ width: 561px;
     font-size: 20px;
 }
 }
+/* How to Play */
+.pink{
+    color: #ff3f8b;
+}
+.how-section{
+    background: #fff3ec;
+}
+.how-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.how-text{
+    font-family: "Manrope", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.4;
+        text-align: center;
+        color: #323232;
+}
+.how-list-wrapper{
+    margin-top: 40px;
+    display: flex;
+        flex-direction: column;
+            align-items: center;
+            gap: 24px;
+}
+.how-wrap{
+    border-radius: 36px;
+        padding: 32px;
+        width: 343px;
+        height: auto;
+background: linear-gradient(180deg, #ffb1c3 0%, rgba(255, 255, 255, 0) 100%);
+gap: 32px;
+display: flex;
+flex-direction: column;
+gap: 32px;
+align-items: start;
+}
+.how-subtitle{
+    font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.4;
+        color: #323232;
+        text-align: left;
+}
+.how-list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.how-item{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: "Manrope", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #323232;
+        text-align: left;
+}
+.how-wrap-two{
+background: linear-gradient(180deg, #a9efff 0%, rgba(255, 255, 255, 0) 100%);
+}
+.how-wrap-two p{
+font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #323232;
+    text-align: left;
+}
+.how-img{
+    margin-top: 24px;
+}
+@media only screen and (min-width: 1440px) {
+   .how-text{
+    width: 602px;
+   }
+   .how-wrapper{
+    display: flex;    
+    flex-direction: row;
+    align-items: center;
+    margin-top: 64px;
+    gap: 64px;
+   }
+   .how-list-wrapper{
+    width: 527px;
+    gap: 64px;
+   }
+   .how-wrap{
+    width: 527px;
+    padding: 48px;
+   }
+.how-subtitle{
+    font-size: 42px;
+}
+.how-item{
+    font-size: 20px;
+}
+.how-wrap-two p {
+font-size: 20px;
+}
+}
