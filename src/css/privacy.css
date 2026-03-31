@@ -1,0 +1,86 @@
+@import url('./styles.css');
+
+.background {
+font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #323232;
+    text-align: left;
+}
+
+.privacy-title {
+font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.4;
+    text-align: center;
+    color: #323232;
+    margin-top: 70px;
+    margin-bottom: 30px;
+
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #323232;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.policy-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+    color: #0040ff;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #0040ff;
+}
+
+.text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.policy-span {
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 1440px) {
+    .policy-container {
+        padding-left: 212px;
+        padding-right: 212px;
+    }
+
+    .background {
+font-size: 16px;
+    }
+.privacy-title {
+font-size: 62px;
+}
+    .policy-subtitle {
+font-size: 24px;
+    }
+}
